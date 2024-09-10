@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body,html{
+height: 100%;
+width: 100%;
+background-color: black;
+
+}
+#center{
+height: 60%;
+width: 60%;
+left: 50%;
+top: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+
+}
+.imagediv{
+height: 180px;
+width: 130px;
+
+position: absolute;
+overflow: hidden;
+
+}
+.imagediv img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+transform:  translateY(90%);
+}
